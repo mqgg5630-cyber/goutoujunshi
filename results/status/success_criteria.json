@@ -1,0 +1,40 @@
+{
+  "description": "goutoujunshi distilled into a Gemini Gem knowledge library (10 volumes + instructions) and pushed to Google Drive gdrive_jzthjyz:Arena/Gem/goutoujunshi with rclone verify",
+  "require_files": [
+    "deliverable/gem/00-文库导读与工作方式.md",
+    "deliverable/gem/01-心理学与哲学基础.md",
+    "deliverable/gem/02-吸引约会与关系启动.md",
+    "deliverable/gem/03-日常沟通与情绪价值.md",
+    "deliverable/gem/04-冲突修复与关系进退.md",
+    "deliverable/gem/05-实战话术编排器.md",
+    "deliverable/gem/06-伦理边界与经典体系转译.md",
+    "deliverable/gem/07-婚姻家庭与社会变迁.md",
+    "deliverable/gem/08-法律安全与危机转介.md",
+    "deliverable/gem/09-社交与职场通用技能.md",
+    "deliverable/gem/Gem系统指令.md",
+    "deliverable/gem/README-创建指南.md",
+    "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md"
+  ],
+  "require_contains": {
+    "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md": "GDRIVE_GEM_PUSH_OK=True",
+    "deliverable/gem/README-创建指南.md": "Gemini Gem",
+    "deliverable/gem/Gem系统指令.md": "每次分析"
+  },
+  "require_regex": {
+    "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md": "gem_package_complete=True"
+  },
+  "min_bytes": {
+    "deliverable/gem/00-文库导读与工作方式.md": 3000,
+    "deliverable/gem/01-心理学与哲学基础.md": 3000,
+    "deliverable/gem/02-吸引约会与关系启动.md": 3000,
+    "deliverable/gem/03-日常沟通与情绪价值.md": 3000,
+    "deliverable/gem/04-冲突修复与关系进退.md": 3000,
+    "deliverable/gem/05-实战话术编排器.md": 3000,
+    "deliverable/gem/06-伦理边界与经典体系转译.md": 3000,
+    "deliverable/gem/07-婚姻家庭与社会变迁.md": 3000,
+    "deliverable/gem/08-法律安全与危机转介.md": 3000,
+    "deliverable/gem/09-社交与职场通用技能.md": 3000,
+    "deliverable/gem/Gem系统指令.md": 3000,
+    "deliverable/gem/README-创建指南.md": 3000
+  }
+}
