@@ -1,7 +1,14 @@
 {
   "note": "repo tasks: map a handshake round number to task scripts in code/tasks. They run on the local machine inside code/local_check.ps1 section 4 (child powershell.exe, stdout goes to the round receipt, non-zero exit fails the round). Only the CURRENT round runs; earlier entries are kept for the audit trail.",
   "rounds": {
-    "1": ["t1_gdrive_push_gem_r1.ps1"],
-    "2": ["t2_restore_parked_watchers_r2.ps1"]
+    "1": [
+      "t1_gdrive_push_gem_r1.ps1"
+    ],
+    "2": [
+      "t2_restore_parked_watchers_r2.ps1"
+    ],
+    "3": [
+      "t3_push_love_letter_skill_r3.ps1"
+    ]
   }
 }

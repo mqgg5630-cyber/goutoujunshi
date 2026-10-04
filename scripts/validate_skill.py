@@ -31,6 +31,7 @@ REQUIRED_PRACTICAL = (
     "场景感、松弛感与社交校准：从接话到关系推进.md",
     "实战话术编排器：从一句回复到后续分支.md",
     "主动表达、第一次见面与自然接触.md",
+    "告白信与久识情书：真诚表达指南.md",
     "自然流、内在状态与结构化互动：伦理能力转译.md",
     "ChatLab聊天记录分析适配.md",
     "长期记忆与关系档案.md",
@@ -125,6 +126,7 @@ def validate_routes_and_regressions(runtime_only: bool) -> None:
             "默认只读取当前问题直接需要的 1–3 份参考",
             "references/practical/ChatLab聊天记录分析适配.md",
             "references/practical/长期记忆与关系档案.md",
+            "references/practical/告白信与久识情书：真诚表达指南.md",
             "references/knowledge/04-MBTI人格与匹配.md",
         )
         for route in required_routes:

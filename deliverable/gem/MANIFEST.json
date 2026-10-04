@@ -1,7 +1,7 @@
 {
   "name": "goutoujunshi Gemini Gem knowledge library",
-  "generated": "2026-10-03",
-  "source_commit": "6db7354",
+  "generated": "2026-10-04",
+  "source_commit": "0b7bdc6",
   "instructions_file": "Gem系统指令.md",
   "volumes": [
     {
@@ -13,8 +13,8 @@
         "references/practical/长期记忆与关系档案.md",
         "references/practical/ChatLab聊天记录分析适配.md"
       ],
-      "bytes": 21299,
-      "sha256": "8a8fdd8561ef72554851762126ced672a1d2ff36573780cc00a3a1a4276700b9"
+      "bytes": 21424,
+      "sha256": "775cf18b42ca81f1e5c84993094722f123dfb54b0a160d8c3e4f811b79cbf2cd"
     },
     {
       "file": "01-心理学与哲学基础.md",
@@ -28,7 +28,7 @@
         "references/knowledge/19-核心书单与论文索引.md"
       ],
       "bytes": 31688,
-      "sha256": "21fab38dccf18b1b76bdee972780c54a863312acc6a08ec9dd415c42508bb851"
+      "sha256": "8b92b48a516164db24f34c1212c63b2d1ba98e29eae6457cee351ecef1513f1e"
     },
     {
       "file": "02-吸引约会与关系启动.md",
@@ -37,10 +37,11 @@
         "references/knowledge/06-吸引约会与关系启动.md",
         "references/knowledge/09-在线约会与数字关系.md",
         "references/practical/主动表达、第一次见面与自然接触.md",
+        "references/practical/告白信与久识情书：真诚表达指南.md",
         "references/practical/场景感、松弛感与社交校准：从接话到关系推进.md"
       ],
-      "bytes": 26639,
-      "sha256": "ad2d4691c0384a63517fb2b14ccab1605950cc700362044eb310aff43d0753be"
+      "bytes": 35587,
+      "sha256": "e899383969f26ebfdfcfe1f2d8fc603e281acb20897c97f12af805b82e23a1c3"
     },
     {
       "file": "03-日常沟通与情绪价值.md",
@@ -54,7 +55,7 @@
         "references/practical/废话文学回复指南：轻松应对各类场景.md"
       ],
       "bytes": 67852,
-      "sha256": "04ca1b39e6a80908733ea6dcb4677d0ac0cd21423be12fcffb347c19b9a233fe"
+      "sha256": "2ca46a1f6fe7894cc3de658389e3c8083bcb9a810603b942aef453382dbce0de"
     },
     {
       "file": "04-冲突修复与关系进退.md",
@@ -67,7 +68,7 @@
         "references/practical/高情商拒绝他人：体面护边界的实用指南.md"
       ],
       "bytes": 37465,
-      "sha256": "e1b3eeadb92f810450e807e1a5f194010fd89d392abe9c7bc37ffec04500dfba"
+      "sha256": "e39af69a225bff48edf124f88dcbdc65cee3eeef4d8e606512afe7d65e880616"
     },
     {
       "file": "05-实战话术编排器.md",
@@ -77,7 +78,7 @@
         "references/practical/聊天化被动为主动：引导互动的实用指南.md"
       ],
       "bytes": 23017,
-      "sha256": "8e3d53d0b65404b00cf284cd5d746292d03524c63c90b579c5d37099cbc15c70"
+      "sha256": "82dc1cffcc4718674bba4dbb0894bb5d60f2d31d18a011ef02180f12b56f25fb"
     },
     {
       "file": "06-伦理边界与经典体系转译.md",
@@ -90,7 +91,7 @@
         "references/practical/公开表达案例的伦理转译.md"
       ],
       "bytes": 29973,
-      "sha256": "76928ac47caa760d2db323cd1e5047c4f46a782584cfe9fdbb8bf36a152c60f5"
+      "sha256": "2e59ac75f0e2e06c36fe16f02207bcbc51f66f89798e9f435b9a9a33adbcb92b"
     },
     {
       "file": "07-婚姻家庭与社会变迁.md",
@@ -103,7 +104,7 @@
         "references/knowledge/16-多元关系与反刻板印象.md"
       ],
       "bytes": 25896,
-      "sha256": "d6a244dcb4e6527c953f1b274a73ee87481dfd752870392d88e6ccc9a4df9799"
+      "sha256": "b125441d3fdc8561334f8ce1cf3bb2afe246f499e8b48a01855373ccbb598e55"
     },
     {
       "file": "08-法律安全与危机转介.md",
@@ -112,7 +113,7 @@
         "references/knowledge/17-中国法律安全与危机转介.md"
       ],
       "bytes": 6412,
-      "sha256": "524330efb1b4f62654d8138c5b59c6c340f8315dc7afbdc4da9c52ebbedf5476"
+      "sha256": "2a2be37898a470c7361e4fa93663df22174478977df4fc1819e505de2510faf6"
     },
     {
       "file": "09-社交与职场通用技能.md",
@@ -125,7 +126,7 @@
         "references/practical/提高气场：从内到外的力量感塑造指南.md"
       ],
       "bytes": 49500,
-      "sha256": "185994cc61d5a7b4e7b79104b9271ad36453521192c15c1afebea4a676a33185"
+      "sha256": "959ebd41e8a144ddb93fff4d1d2935c9d24a0aa173eb39dddb6b04e79ecbfcfd"
     }
   ]
 }

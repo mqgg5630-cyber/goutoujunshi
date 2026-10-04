@@ -14,16 +14,25 @@
     "deliverable/gem/Gem系统指令.md",
     "deliverable/gem/README-创建指南.md",
     "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md",
-    "results/status/WATCHERS_RESTORED_R2.md"
+    "results/status/WATCHERS_RESTORED_R2.md",
+    "documentation/love-letter-confession-skill-scan.md",
+    "references/practical/告白信与久识情书：真诚表达指南.md",
+    "skills/love-letter-confession/SKILL.md",
+    "results/cloud_interop/GEM_GDRIVE_PUSH_R3.md"
   ],
   "require_contains": {
     "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md": "GDRIVE_GEM_PUSH_OK=True",
     "deliverable/gem/README-创建指南.md": "Gemini Gem",
     "deliverable/gem/Gem系统指令.md": "每次分析",
-    "results/status/WATCHERS_RESTORED_R2.md": "WATCHERS_RESTORED_OK=True"
+    "results/status/WATCHERS_RESTORED_R2.md": "WATCHERS_RESTORED_OK=True",
+    "documentation/love-letter-confession-skill-scan.md": "蒸馏结论",
+    "references/practical/告白信与久识情书：真诚表达指南.md": "低压告白",
+    "skills/love-letter-confession/SKILL.md": "name: love-letter-confession",
+    "results/cloud_interop/GEM_GDRIVE_PUSH_R3.md": "LOVE_LETTER_SKILL_READY=True"
   },
   "require_regex": {
-    "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md": "gem_package_complete=True"
+    "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md": "gem_package_complete=True",
+    "results/cloud_interop/GEM_GDRIVE_PUSH_R3.md": "GDRIVE_GEM_PUSH_OK=True"
   },
   "min_bytes": {
     "deliverable/gem/00-文库导读与工作方式.md": 3000,
@@ -37,6 +46,9 @@
     "deliverable/gem/08-法律安全与危机转介.md": 3000,
     "deliverable/gem/09-社交与职场通用技能.md": 3000,
     "deliverable/gem/Gem系统指令.md": 3000,
-    "deliverable/gem/README-创建指南.md": 3000
+    "deliverable/gem/README-创建指南.md": 3000,
+    "documentation/love-letter-confession-skill-scan.md": 3000,
+    "references/practical/告白信与久识情书：真诚表达指南.md": 3000,
+    "skills/love-letter-confession/SKILL.md": 3000
   }
 }
