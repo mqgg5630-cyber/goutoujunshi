@@ -13,12 +13,14 @@
     "deliverable/gem/09-社交与职场通用技能.md",
     "deliverable/gem/Gem系统指令.md",
     "deliverable/gem/README-创建指南.md",
-    "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md"
+    "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md",
+    "results/status/WATCHERS_RESTORED_R2.md"
   ],
   "require_contains": {
     "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md": "GDRIVE_GEM_PUSH_OK=True",
     "deliverable/gem/README-创建指南.md": "Gemini Gem",
-    "deliverable/gem/Gem系统指令.md": "每次分析"
+    "deliverable/gem/Gem系统指令.md": "每次分析",
+    "results/status/WATCHERS_RESTORED_R2.md": "WATCHERS_RESTORED_OK=True"
   },
   "require_regex": {
     "results/cloud_interop/GEM_GDRIVE_PUSH_R1.md": "gem_package_complete=True"
