@@ -1,9 +1,9 @@
 {
-  "round": 1,
-  "arena_state": "accepted",
-  "local_state": "passed",
-  "arena_updated": "2026-10-04 07:57:15",
-  "local_updated": "2026-10-04 15:52:38",
-  "host": "LAPTOP-R77M5D6M",
-  "note": "Gem library verified on Drive (24 files, 0 differences); round 1 accepted"
+  "round": 2,
+  "arena_state": "awaiting_check",
+  "local_state": "pending",
+  "arena_updated": "2026-10-04 08:13:36",
+  "local_updated": null,
+  "host": "",
+  "note": "round 2: restore all parked git-sync-watch-* scheduled tasks (Enable+Start, mirror watch.ps1 -RestoreParked); report final states"
 }
