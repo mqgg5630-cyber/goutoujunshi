@@ -1,0 +1,129 @@
+{
+  "name": "告白情书军师",
+  "slug": "love-letter-confession-gem",
+  "built_at": "2026-10-04T10:38:27.183813+00:00",
+  "knowledge_files": [
+    "00-导读与边界.md",
+    "01-关系判断与告白时机.md",
+    "02-共同记忆素材采集.md",
+    "03-告白信结构与低压表达.md",
+    "04-久识情书与老朋友转关系.md",
+    "05-纪念日生日异地长信.md",
+    "06-风格库：克制温柔轻松文艺搞笑.md",
+    "07-发送方式与仪式感.md",
+    "08-表白后续分支.md",
+    "09-案例模板与检查清单.md"
+  ],
+  "files": [
+    {
+      "path": "00-导读与边界.md",
+      "bytes": 3935,
+      "sha256": "2a540e9d672ad85c4062a4472c0e7461b74ccd0a4c7995d623e391d20eba0c9b"
+    },
+    {
+      "path": "01-关系判断与告白时机.md",
+      "bytes": 3436,
+      "sha256": "c5db642f26376c37e6bc0207ae7e271e5851cec3563a99cc24e356e0023af36d"
+    },
+    {
+      "path": "02-共同记忆素材采集.md",
+      "bytes": 3169,
+      "sha256": "3cc126495b4839c10ebba6aaaa9ef608be0b6ba0413ba220dee2c783bbf6c8d4"
+    },
+    {
+      "path": "03-告白信结构与低压表达.md",
+      "bytes": 3767,
+      "sha256": "b68962fd218345f3e7b7bb06e5945c614961082e16ba535801b6c8a205f58a16"
+    },
+    {
+      "path": "04-久识情书与老朋友转关系.md",
+      "bytes": 3608,
+      "sha256": "583f083c1f3d26fd36f6a29d1d222739f540e4d37e314e4ae91efd61eebd1965"
+    },
+    {
+      "path": "05-纪念日生日异地长信.md",
+      "bytes": 3981,
+      "sha256": "a75411a3aaa9aa374371a323b8e31ced52686c5a29b51c8edb1bad0c595d3ef7"
+    },
+    {
+      "path": "06-风格库：克制温柔轻松文艺搞笑.md",
+      "bytes": 3591,
+      "sha256": "06f8cab1f8010ce46d2297fb021c6820dd7c2aa8e794b0da6f9416d75e3f1a2d"
+    },
+    {
+      "path": "07-发送方式与仪式感.md",
+      "bytes": 3298,
+      "sha256": "fddd8d879181ebdc14db942453892d50d555de14c6b54791e3ca3b77c2f80012"
+    },
+    {
+      "path": "08-表白后续分支.md",
+      "bytes": 3451,
+      "sha256": "eadbe28fe701f85102d7a02c8c568660cf1c8ba5bc57e468630938d542cdd287"
+    },
+    {
+      "path": "09-案例模板与检查清单.md",
+      "bytes": 3469,
+      "sha256": "d9488e85db479c7e1fc4cbd9d19e003a951f1bade7b2384f5f19a3ac8a8321b2"
+    },
+    {
+      "path": "Gem系统指令.md",
+      "bytes": 2779,
+      "sha256": "ef16f1aad5432edb4da6e520cf30335c45a6ee74024c62eb23f27ad97f856296"
+    },
+    {
+      "path": "README-创建指南.md",
+      "bytes": 1697,
+      "sha256": "735ef719d0b56d37ef39b7df0c5549064faaf6e002875e95d18c9378b0a1789c"
+    },
+    {
+      "path": "txt/00-导读与边界.txt",
+      "bytes": 3935,
+      "sha256": "2a540e9d672ad85c4062a4472c0e7461b74ccd0a4c7995d623e391d20eba0c9b"
+    },
+    {
+      "path": "txt/01-关系判断与告白时机.txt",
+      "bytes": 3436,
+      "sha256": "c5db642f26376c37e6bc0207ae7e271e5851cec3563a99cc24e356e0023af36d"
+    },
+    {
+      "path": "txt/02-共同记忆素材采集.txt",
+      "bytes": 3169,
+      "sha256": "3cc126495b4839c10ebba6aaaa9ef608be0b6ba0413ba220dee2c783bbf6c8d4"
+    },
+    {
+      "path": "txt/03-告白信结构与低压表达.txt",
+      "bytes": 3767,
+      "sha256": "b68962fd218345f3e7b7bb06e5945c614961082e16ba535801b6c8a205f58a16"
+    },
+    {
+      "path": "txt/04-久识情书与老朋友转关系.txt",
+      "bytes": 3608,
+      "sha256": "583f083c1f3d26fd36f6a29d1d222739f540e4d37e314e4ae91efd61eebd1965"
+    },
+    {
+      "path": "txt/05-纪念日生日异地长信.txt",
+      "bytes": 3981,
+      "sha256": "a75411a3aaa9aa374371a323b8e31ced52686c5a29b51c8edb1bad0c595d3ef7"
+    },
+    {
+      "path": "txt/06-风格库：克制温柔轻松文艺搞笑.txt",
+      "bytes": 3591,
+      "sha256": "06f8cab1f8010ce46d2297fb021c6820dd7c2aa8e794b0da6f9416d75e3f1a2d"
+    },
+    {
+      "path": "txt/07-发送方式与仪式感.txt",
+      "bytes": 3298,
+      "sha256": "fddd8d879181ebdc14db942453892d50d555de14c6b54791e3ca3b77c2f80012"
+    },
+    {
+      "path": "txt/08-表白后续分支.txt",
+      "bytes": 3451,
+      "sha256": "eadbe28fe701f85102d7a02c8c568660cf1c8ba5bc57e468630938d542cdd287"
+    },
+    {
+      "path": "txt/09-案例模板与检查清单.txt",
+      "bytes": 3469,
+      "sha256": "d9488e85db479c7e1fc4cbd9d19e003a951f1bade7b2384f5f19a3ac8a8321b2"
+    }
+  ]
+}
