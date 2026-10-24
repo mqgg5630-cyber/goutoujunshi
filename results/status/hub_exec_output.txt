@@ -1,9 +1,9 @@
 ﻿== git-sync-hub v4.0 execution log on LAPTOP-R77M5D6M ==
 repo: goutoujunshi
 branch: arena/d766ed90-goutoujunshi
-source_commit: d5d5c16b9b83615a9476b9fbb3c2ddcd9bac72ce
-executed_at_utc: 2026-10-24T07:33:14Z
-executed_at_local: 2026-10-24 15:33:14
+source_commit: 5719d53265ebafeb62be113d7999ccbbf8d5267a
+executed_at_utc: 2026-10-24T07:34:26Z
+executed_at_local: 2026-10-24 15:34:26
 
 --- step: write_file: C:\0github\arena_hub_probe.txt (exit=0) ---
 written_to: C:\0github\arena_hub_probe.txt
@@ -18,8 +18,8 @@ written_to: D:\桌面\arena_hub_probe.txt
 HOST=LAPTOP-R77M5D6M
 USER=����
 PS=5.1.26100.8875
-CWD=C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-3d6905bb
-TIME=2026-10-24T15:33:09.2049664+08:00
+CWD=C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-a171915c
+TIME=2026-10-24T15:34:22.3939200+08:00
 
 --- step: hub_task.powershell (exit=0) ---
 EXISTS_C_ROOT=True
@@ -29,14 +29,14 @@ EXISTS_E_SPIDER=True
 
 --- step: hub_task.powershell (exit=0) ---
 GIT=git version 2.54.0.windows.1
-GIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-3d6905bb
+GIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-a171915c
 GIT_BRANCH=arena/d766ed90-goutoujunshi
 
 --- step: hub_task.python (exit=0) ---
 PY_EXE=E:\spider\python.exe
 PY_VER=3.11.9
 NODE=LAPTOP-R77M5D6M
-CWD=C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-3d6905bb
+CWD=C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-a171915c
 OS=Windows 10
 
 --- step: hub_task.python (exit=0) ---
@@ -44,20 +44,21 @@ DRIVES=C:,D:,E:
 D_DESKTOP=True
 C_0github=True
 
+--- step: hub_task.python (exit=0) ---
+READBACK_C_LEN=113
+READBACK_D_LEN=72
+READBACK_D_CONTENT=Arena �뱾�ؾ�Ĭ�������ֳɹ� | ʱ��(UTC): 2026-10-24 | ��Դ��֧: arena/d766ed90-goutoujunshi
+
 --- step: results\task\run.ps1 (exit=0) ---
-=== ARENA HANDSHAKE REPORT ===
-time_utc     : 2026-10-24T07:33:13.9619444Z
-host         : LAPTOP-R77M5D6M
-user         : ����
-ps_version   : 5.1.26100.8875
-pwsh_exe     : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-cwd          : C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-3d6905bb
-c_root       : True
-c_0github    : True
-d_desktop    : False
-e_python     : True
-git_version  : git version 2.54.0.windows.1
-git_toplevel : C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-3d6905bb
-git_branch   : arena/d766ed90-goutoujunshi
-d_root_items : $RECYCLE.BIN, 13V03, 1code, 1hujiaojian, 2, ADT, Autodock, CodexHome, DeskBoxLibrary, Drivers, Grafhpad, LenovoQMDownload, LenovoSoftstore, Lib, LicensePack
+=== ARENA HANDSHAKE VERIFY ===
+time_utc   : 2026-10-24T07:34:26.4736799Z
+host       : LAPTOP-R77M5D6M
+branch     : arena/d766ed90-goutoujunshi
+PRESENT    : C:\0github\arena_hub_probe.txt | bytes=113 | chars=113 | mtime=2026-10-24T15:34:21
+PRESENT    : D:\����\���Գɹ�.txt | bytes=106 | chars=72 | mtime=2026-10-24T15:34:21
+PRESENT    : D:\����\arena_hub_probe.txt | bytes=197 | chars=195 | mtime=2026-10-24T15:34:21
+d_desktop  : True
+c_0github  : True
+e_python   : True
+WROTE      : C:\0github\arena_hub_report.txt
 
