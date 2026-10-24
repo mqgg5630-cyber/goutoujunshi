@@ -1,0 +1,85 @@
+﻿{
+    "status":  "synced",
+    "host":  "LAPTOP-R77M5D6M",
+    "repo":  "goutoujunshi",
+    "branch":  "arena/d766ed90-goutoujunshi",
+    "source_commit":  "d5d5c16b9b83615a9476b9fbb3c2ddcd9bac72ce",
+    "synced_at_utc":  "2026-10-24T07:33:14Z",
+    "synced_at_local":  "2026-10-24 15:33:14",
+    "poll_interval_sec":  15,
+    "local_results_dir":  "E:\\0github\\results\\goutoujunshi-d766ed90-goutoujunshi",
+    "synced_files_count":  5,
+    "tasks_executed_count":  9,
+    "tasks_executed":  [
+                           {
+                               "step":  "write_file: C:\\0github\\arena_hub_probe.txt",
+                               "exit_code":  0,
+                               "written_to":  [
+                                                  "C:\\0github\\arena_hub_probe.txt"
+                                              ]
+                           },
+                           {
+                               "step":  "write_file: D:\\桌面\\测试成功.txt",
+                               "exit_code":  0,
+                               "written_to":  [
+                                                  "D:\\桌面\\测试成功.txt"
+                                              ]
+                           },
+                           {
+                               "step":  "copy_file: results\\status\\hub_probe.txt -\u003e D:\\桌面\\arena_hub_probe.txt",
+                               "exit_code":  0,
+                               "written_to":  [
+                                                  "D:\\桌面\\arena_hub_probe.txt"
+                                              ],
+                               "bytes":  197
+                           },
+                           {
+                               "step":  "hub_task.powershell",
+                               "exit_code":  0,
+                               "elapsed_ms":  1361,
+                               "stdout":  "HOST=LAPTOP-R77M5D6M\r\nUSER=����\r\nPS=5.1.26100.8875\r\nCWD=C:\\Users\\����\\AppData\\Local\\Temp\\git-sync-hub-ephemeral\\goutoujunshi-d766ed90-goutoujunshi-3d6905bb\r\nTIME=2026-10-24T15:33:09.2049664+08:00",
+                               "stderr":  ""
+                           },
+                           {
+                               "step":  "hub_task.powershell",
+                               "exit_code":  0,
+                               "elapsed_ms":  1345,
+                               "stdout":  "EXISTS_C_ROOT=True\r\nEXISTS_C_0github=True\r\nEXISTS_D_DESKTOP=True\r\nEXISTS_E_SPIDER=True",
+                               "stderr":  ""
+                           },
+                           {
+                               "step":  "hub_task.powershell",
+                               "exit_code":  0,
+                               "elapsed_ms":  1211,
+                               "stdout":  "GIT=git version 2.54.0.windows.1\r\nGIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-3d6905bb\r\nGIT_BRANCH=arena/d766ed90-goutoujunshi",
+                               "stderr":  ""
+                           },
+                           {
+                               "step":  "hub_task.python",
+                               "exit_code":  0,
+                               "elapsed_ms":  678,
+                               "stdout":  "PY_EXE=E:\\spider\\python.exe\r\nPY_VER=3.11.9\r\nNODE=LAPTOP-R77M5D6M\r\nCWD=C:\\Users\\����\\AppData\\Local\\Temp\\git-sync-hub-ephemeral\\goutoujunshi-d766ed90-goutoujunshi-3d6905bb\r\nOS=Windows 10",
+                               "stderr":  ""
+                           },
+                           {
+                               "step":  "hub_task.python",
+                               "exit_code":  0,
+                               "elapsed_ms":  116,
+                               "stdout":  "DRIVES=C:,D:,E:\r\nD_DESKTOP=True\r\nC_0github=True",
+                               "stderr":  ""
+                           },
+                           {
+                               "step":  "results\\task\\run.ps1",
+                               "exit_code":  0,
+                               "elapsed_ms":  1763,
+                               "stdout":  "=== ARENA HANDSHAKE REPORT ===\r\ntime_utc     : 2026-10-24T07:33:13.9619444Z\r\nhost         : LAPTOP-R77M5D6M\r\nuser         : ����\r\nps_version   : 5.1.26100.8875\r\npwsh_exe     : C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\r\ncwd          : C:\\Users\\����\\AppData\\Local\\Temp\\git-sync-hub-ephemeral\\goutoujunshi-d766ed90-goutoujunshi-3d6905bb\r\nc_root       : True\r\nc_0github    : True\r\nd_desktop    : False\r\ne_python     : True\r\ngit_version  : git version 2.54.0.windows.1\r\ngit_toplevel : C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-3d6905bb\r\ngit_branch   : arena/d766ed90-goutoujunshi\r\nd_root_items : $RECYCLE.BIN, 13V03, 1code, 1hujiaojian, 2, ADT, Autodock, CodexHome, DeskBoxLibrary, Drivers, Grafhpad, LenovoQMDownload, LenovoSoftstore, Lib, LicensePack",
+                               "stderr":  ""
+                           }
+                       ],
+    "copied_targets":  [
+                           "C:\\0github\\arena_hub_probe.txt",
+                           "D:\\桌面\\测试成功.txt",
+                           "D:\\桌面\\arena_hub_probe.txt"
+                       ],
+    "mode":  "auto-poll-exec-and-sync-zero-window-v4.0"
+}
