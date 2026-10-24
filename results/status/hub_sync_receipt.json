@@ -3,12 +3,12 @@
     "host":  "LAPTOP-R77M5D6M",
     "repo":  "goutoujunshi",
     "branch":  "arena/d766ed90-goutoujunshi",
-    "source_commit":  "0abb90b9fa3cfaad1abc2bce03991ab000a7a86a",
-    "synced_at_utc":  "2026-10-24T07:35:55Z",
-    "synced_at_local":  "2026-10-24 15:35:55",
+    "source_commit":  "6743af5f4add87645b10cbe3e10c9996b1991b46",
+    "synced_at_utc":  "2026-10-24T07:37:19Z",
+    "synced_at_local":  "2026-10-24 15:37:19",
     "poll_interval_sec":  15,
     "local_results_dir":  "E:\\0github\\results\\goutoujunshi-d766ed90-goutoujunshi",
-    "synced_files_count":  6,
+    "synced_files_count":  7,
     "tasks_executed_count":  10,
     "tasks_executed":  [
                            {
@@ -36,50 +36,50 @@
                            {
                                "step":  "hub_task.powershell",
                                "exit_code":  0,
-                               "elapsed_ms":  1918,
-                               "stdout":  "HOST=LAPTOP-R77M5D6M\r\nUSER=����\r\nPS=5.1.26100.8875\r\nCWD=C:\\Users\\����\\AppData\\Local\\Temp\\git-sync-hub-ephemeral\\goutoujunshi-d766ed90-goutoujunshi-036499ab\r\nTIME=2026-10-24T15:35:48.6343323+08:00",
+                               "elapsed_ms":  1320,
+                               "stdout":  "HOST=LAPTOP-R77M5D6M\r\nUSER=����\r\nPS=5.1.26100.8875\r\nCWD=C:\\Users\\����\\AppData\\Local\\Temp\\git-sync-hub-ephemeral\\goutoujunshi-d766ed90-goutoujunshi-4d55c774\r\nTIME=2026-10-24T15:37:14.7842669+08:00",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.powershell",
                                "exit_code":  0,
-                               "elapsed_ms":  1464,
+                               "elapsed_ms":  1190,
                                "stdout":  "EXISTS_C_ROOT=True\r\nEXISTS_C_0github=True\r\nEXISTS_D_DESKTOP=True\r\nEXISTS_E_SPIDER=True",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.powershell",
                                "exit_code":  0,
-                               "elapsed_ms":  1679,
-                               "stdout":  "GIT=git version 2.54.0.windows.1\r\nGIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-036499ab\r\nGIT_BRANCH=arena/d766ed90-goutoujunshi",
+                               "elapsed_ms":  1113,
+                               "stdout":  "GIT=git version 2.54.0.windows.1\r\nGIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-4d55c774\r\nGIT_BRANCH=arena/d766ed90-goutoujunshi",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.python",
                                "exit_code":  0,
-                               "elapsed_ms":  1131,
+                               "elapsed_ms":  288,
                                "stdout":  "UTF8_PROBE=中文测试 OK\r\nNODE=LAPTOP-R77M5D6M",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.python",
                                "exit_code":  0,
-                               "elapsed_ms":  315,
+                               "elapsed_ms":  149,
                                "stdout":  "SHA256_C=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nSHA256_D=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af\r\nSIZE_D=106",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.python",
                                "exit_code":  0,
-                               "elapsed_ms":  119,
+                               "elapsed_ms":  106,
                                "stdout":  "REPORT_FILE=True",
                                "stderr":  ""
                            },
                            {
                                "step":  "results\\task\\run.ps1",
                                "exit_code":  0,
-                               "elapsed_ms":  1796,
-                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-24T07:35:54.8610092Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nPRESENT    : D:\\桌面\\测试成功.txt | bytes=106 | sha256=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af\r\nPRESENT    : D:\\桌面\\arena_hub_probe.txt | bytes=197 | sha256=b92d7b0680270b6ca6ba92e6e6906cd52b6f55e4ac27422c1206bb92f9224552\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
+                               "elapsed_ms":  1548,
+                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-24T07:37:18.9730079Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nPRESENT    : D:\\桌面\\测试成功.txt | bytes=106 | sha256=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af\r\nPRESENT    : D:\\桌面\\arena_hub_probe.txt | bytes=197 | sha256=b92d7b0680270b6ca6ba92e6e6906cd52b6f55e4ac27422c1206bb92f9224552\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
                                "stderr":  ""
                            }
                        ],
