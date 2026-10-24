@@ -1,52 +1,13 @@
 ﻿== git-sync-hub v4.0 execution log on LAPTOP-R77M5D6M ==
 repo: goutoujunshi
 branch: arena/d766ed90-goutoujunshi
-source_commit: 6743af5f4add87645b10cbe3e10c9996b1991b46
-executed_at_utc: 2026-10-24T07:37:19Z
-executed_at_local: 2026-10-24 15:37:19
-
---- step: write_file: C:\0github\arena_hub_probe.txt (exit=0) ---
-written_to: C:\0github\arena_hub_probe.txt
-
---- step: write_file: D:\桌面\测试成功.txt (exit=0) ---
-written_to: D:\桌面\测试成功.txt
-
---- step: copy_file: results\status\hub_probe.txt -> D:\桌面\arena_hub_probe.txt (exit=0) ---
-written_to: D:\桌面\arena_hub_probe.txt
-
---- step: hub_task.powershell (exit=0) ---
-HOST=LAPTOP-R77M5D6M
-USER=����
-PS=5.1.26100.8875
-CWD=C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-4d55c774
-TIME=2026-10-24T15:37:14.7842669+08:00
-
---- step: hub_task.powershell (exit=0) ---
-EXISTS_C_ROOT=True
-EXISTS_C_0github=True
-EXISTS_D_DESKTOP=True
-EXISTS_E_SPIDER=True
-
---- step: hub_task.powershell (exit=0) ---
-GIT=git version 2.54.0.windows.1
-GIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-4d55c774
-GIT_BRANCH=arena/d766ed90-goutoujunshi
-
---- step: hub_task.python (exit=0) ---
-UTF8_PROBE=中文测试 OK
-NODE=LAPTOP-R77M5D6M
-
---- step: hub_task.python (exit=0) ---
-SHA256_C=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e
-SHA256_D=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af
-SIZE_D=106
-
---- step: hub_task.python (exit=0) ---
-REPORT_FILE=True
+source_commit: 6c101ff64e9a7342e3a3bdce6c6cb25b557f142a
+executed_at_utc: 2026-10-24T07:37:58Z
+executed_at_local: 2026-10-24 15:37:58
 
 --- step: results\task\run.ps1 (exit=0) ---
 === ARENA HANDSHAKE VERIFY (r3) ===
-time_utc   : 2026-10-24T07:37:18.9730079Z
+time_utc   : 2026-10-24T07:37:57.9026474Z
 host       : LAPTOP-R77M5D6M
 cp_out     : utf-8
 utf8_probe : 中文输出测试 OK
