@@ -21,4 +21,6 @@
 
 同时通过 PowerShell 与 Python 回报主机名、解释器路径、盘符可用性与 git 状态。
 
-回执返回后，Arena 侧会把结论写入 `results/status/hub_handshake_report.md`。
+回执返回后，Arena 侧把结论写入 **`results/status/hub_handshake_report.md`**（含真机环境、SHA-256 落盘校验、时延与 6 条编码/路径踩坑结论）。
+
+> 速记：`.ps1` 存 UTF-8 **BOM**；脚本要打印中文先设 UTF-8 输出编码；`copy_files` 会把 LF 改 CRLF；持久写入一律用绝对盘符路径。
