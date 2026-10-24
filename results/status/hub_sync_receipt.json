@@ -3,9 +3,9 @@
     "host":  "LAPTOP-R77M5D6M",
     "repo":  "goutoujunshi",
     "branch":  "arena/d766ed90-goutoujunshi",
-    "source_commit":  "5719d53265ebafeb62be113d7999ccbbf8d5267a",
-    "synced_at_utc":  "2026-10-24T07:34:26Z",
-    "synced_at_local":  "2026-10-24 15:34:26",
+    "source_commit":  "0abb90b9fa3cfaad1abc2bce03991ab000a7a86a",
+    "synced_at_utc":  "2026-10-24T07:35:55Z",
+    "synced_at_local":  "2026-10-24 15:35:55",
     "poll_interval_sec":  15,
     "local_results_dir":  "E:\\0github\\results\\goutoujunshi-d766ed90-goutoujunshi",
     "synced_files_count":  6,
@@ -36,50 +36,50 @@
                            {
                                "step":  "hub_task.powershell",
                                "exit_code":  0,
-                               "elapsed_ms":  1327,
-                               "stdout":  "HOST=LAPTOP-R77M5D6M\r\nUSER=����\r\nPS=5.1.26100.8875\r\nCWD=C:\\Users\\����\\AppData\\Local\\Temp\\git-sync-hub-ephemeral\\goutoujunshi-d766ed90-goutoujunshi-a171915c\r\nTIME=2026-10-24T15:34:22.3939200+08:00",
+                               "elapsed_ms":  1918,
+                               "stdout":  "HOST=LAPTOP-R77M5D6M\r\nUSER=����\r\nPS=5.1.26100.8875\r\nCWD=C:\\Users\\����\\AppData\\Local\\Temp\\git-sync-hub-ephemeral\\goutoujunshi-d766ed90-goutoujunshi-036499ab\r\nTIME=2026-10-24T15:35:48.6343323+08:00",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.powershell",
                                "exit_code":  0,
-                               "elapsed_ms":  1168,
+                               "elapsed_ms":  1464,
                                "stdout":  "EXISTS_C_ROOT=True\r\nEXISTS_C_0github=True\r\nEXISTS_D_DESKTOP=True\r\nEXISTS_E_SPIDER=True",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.powershell",
                                "exit_code":  0,
-                               "elapsed_ms":  1133,
-                               "stdout":  "GIT=git version 2.54.0.windows.1\r\nGIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-a171915c\r\nGIT_BRANCH=arena/d766ed90-goutoujunshi",
+                               "elapsed_ms":  1679,
+                               "stdout":  "GIT=git version 2.54.0.windows.1\r\nGIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-036499ab\r\nGIT_BRANCH=arena/d766ed90-goutoujunshi",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.python",
                                "exit_code":  0,
-                               "elapsed_ms":  277,
-                               "stdout":  "PY_EXE=E:\\spider\\python.exe\r\nPY_VER=3.11.9\r\nNODE=LAPTOP-R77M5D6M\r\nCWD=C:\\Users\\����\\AppData\\Local\\Temp\\git-sync-hub-ephemeral\\goutoujunshi-d766ed90-goutoujunshi-a171915c\r\nOS=Windows 10",
+                               "elapsed_ms":  1131,
+                               "stdout":  "UTF8_PROBE=中文测试 OK\r\nNODE=LAPTOP-R77M5D6M",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.python",
                                "exit_code":  0,
-                               "elapsed_ms":  104,
-                               "stdout":  "DRIVES=C:,D:,E:\r\nD_DESKTOP=True\r\nC_0github=True",
+                               "elapsed_ms":  315,
+                               "stdout":  "SHA256_C=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nSHA256_D=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af\r\nSIZE_D=106",
                                "stderr":  ""
                            },
                            {
                                "step":  "hub_task.python",
                                "exit_code":  0,
-                               "elapsed_ms":  104,
-                               "stdout":  "READBACK_C_LEN=113\r\nREADBACK_D_LEN=72\r\nREADBACK_D_CONTENT=Arena �뱾�ؾ�Ĭ�������ֳɹ� | ʱ��(UTC): 2026-10-24 | ��Դ��֧: arena/d766ed90-goutoujunshi",
+                               "elapsed_ms":  119,
+                               "stdout":  "REPORT_FILE=True",
                                "stderr":  ""
                            },
                            {
                                "step":  "results\\task\\run.ps1",
                                "exit_code":  0,
-                               "elapsed_ms":  1484,
-                               "stdout":  "=== ARENA HANDSHAKE VERIFY ===\r\ntime_utc   : 2026-10-24T07:34:26.4736799Z\r\nhost       : LAPTOP-R77M5D6M\r\nbranch     : arena/d766ed90-goutoujunshi\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | chars=113 | mtime=2026-10-24T15:34:21\r\nPRESENT    : D:\\����\\���Գɹ�.txt | bytes=106 | chars=72 | mtime=2026-10-24T15:34:21\r\nPRESENT    : D:\\����\\arena_hub_probe.txt | bytes=197 | chars=195 | mtime=2026-10-24T15:34:21\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
+                               "elapsed_ms":  1796,
+                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-24T07:35:54.8610092Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nPRESENT    : D:\\桌面\\测试成功.txt | bytes=106 | sha256=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af\r\nPRESENT    : D:\\桌面\\arena_hub_probe.txt | bytes=197 | sha256=b92d7b0680270b6ca6ba92e6e6906cd52b6f55e4ac27422c1206bb92f9224552\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
                                "stderr":  ""
                            }
                        ],

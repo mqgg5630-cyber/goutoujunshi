@@ -1,9 +1,9 @@
 ﻿== git-sync-hub v4.0 execution log on LAPTOP-R77M5D6M ==
 repo: goutoujunshi
 branch: arena/d766ed90-goutoujunshi
-source_commit: 5719d53265ebafeb62be113d7999ccbbf8d5267a
-executed_at_utc: 2026-10-24T07:34:26Z
-executed_at_local: 2026-10-24 15:34:26
+source_commit: 0abb90b9fa3cfaad1abc2bce03991ab000a7a86a
+executed_at_utc: 2026-10-24T07:35:55Z
+executed_at_local: 2026-10-24 15:35:55
 
 --- step: write_file: C:\0github\arena_hub_probe.txt (exit=0) ---
 written_to: C:\0github\arena_hub_probe.txt
@@ -18,8 +18,8 @@ written_to: D:\桌面\arena_hub_probe.txt
 HOST=LAPTOP-R77M5D6M
 USER=����
 PS=5.1.26100.8875
-CWD=C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-a171915c
-TIME=2026-10-24T15:34:22.3939200+08:00
+CWD=C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-036499ab
+TIME=2026-10-24T15:35:48.6343323+08:00
 
 --- step: hub_task.powershell (exit=0) ---
 EXISTS_C_ROOT=True
@@ -29,36 +29,32 @@ EXISTS_E_SPIDER=True
 
 --- step: hub_task.powershell (exit=0) ---
 GIT=git version 2.54.0.windows.1
-GIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-a171915c
+GIT_ROOT=C:/Users/文少/AppData/Local/Temp/git-sync-hub-ephemeral/goutoujunshi-d766ed90-goutoujunshi-036499ab
 GIT_BRANCH=arena/d766ed90-goutoujunshi
 
 --- step: hub_task.python (exit=0) ---
-PY_EXE=E:\spider\python.exe
-PY_VER=3.11.9
+UTF8_PROBE=中文测试 OK
 NODE=LAPTOP-R77M5D6M
-CWD=C:\Users\����\AppData\Local\Temp\git-sync-hub-ephemeral\goutoujunshi-d766ed90-goutoujunshi-a171915c
-OS=Windows 10
 
 --- step: hub_task.python (exit=0) ---
-DRIVES=C:,D:,E:
-D_DESKTOP=True
-C_0github=True
+SHA256_C=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e
+SHA256_D=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af
+SIZE_D=106
 
 --- step: hub_task.python (exit=0) ---
-READBACK_C_LEN=113
-READBACK_D_LEN=72
-READBACK_D_CONTENT=Arena �뱾�ؾ�Ĭ�������ֳɹ� | ʱ��(UTC): 2026-10-24 | ��Դ��֧: arena/d766ed90-goutoujunshi
+REPORT_FILE=True
 
 --- step: results\task\run.ps1 (exit=0) ---
-=== ARENA HANDSHAKE VERIFY ===
-time_utc   : 2026-10-24T07:34:26.4736799Z
+=== ARENA HANDSHAKE VERIFY (r3) ===
+time_utc   : 2026-10-24T07:35:54.8610092Z
 host       : LAPTOP-R77M5D6M
-branch     : arena/d766ed90-goutoujunshi
-PRESENT    : C:\0github\arena_hub_probe.txt | bytes=113 | chars=113 | mtime=2026-10-24T15:34:21
-PRESENT    : D:\����\���Գɹ�.txt | bytes=106 | chars=72 | mtime=2026-10-24T15:34:21
-PRESENT    : D:\����\arena_hub_probe.txt | bytes=197 | chars=195 | mtime=2026-10-24T15:34:21
+cp_out     : utf-8
+utf8_probe : 中文输出测试 OK
 d_desktop  : True
 c_0github  : True
 e_python   : True
+PRESENT    : C:\0github\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e
+PRESENT    : D:\桌面\测试成功.txt | bytes=106 | sha256=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af
+PRESENT    : D:\桌面\arena_hub_probe.txt | bytes=197 | sha256=b92d7b0680270b6ca6ba92e6e6906cd52b6f55e4ac27422c1206bb92f9224552
 WROTE      : C:\0github\arena_hub_report.txt
 
