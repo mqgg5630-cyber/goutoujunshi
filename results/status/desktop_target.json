@@ -1,0 +1,23 @@
+{
+  "schema": "goutoujunshi.desktop-target/v1",
+  "requested_at_utc": "2026-10-24T06:55:16Z",
+  "requested_at_local": "2026-10-24 14:55:16",
+  "timestamp_marker": "20261024T065516Z",
+  "branch": "arena/e1541481-goutoujunshi",
+  "host": "LAPTOP-R77M5D6M",
+  "source": "results/deliverable/测试成功.txt",
+  "target_path": "D:\\桌面\\测试成功.txt",
+  "mode": "overwrite",
+  "encoding": "utf-8",
+  "fallback_target": "E:\\0github\\results\\goutoujunshi-e1541481-goutoujunshi\\results\\deliverable\\测试成功.txt",
+  "capability_required": [
+    "基座在一次同步中额外执行一次文件覆盖（单文件复制，不是常驻脚本）",
+    "目标目录 D:\\桌面\\ 必须可写（用户桌面可能被重定向或受 OneDrive 接管）"
+  ],
+  "evidence_of_support": {
+    "download_ps1_supports_arbitrary_dest": true,
+    "note": "仓库内 skills/git-sync/scripts/download.ps1 支持 -Dest 任意目录（robocopy），但它属于本地脚本调用，不在 results-only 静默模式内",
+    "receipts_ever_contained_desktop_path": false
+  },
+  "status": "requested_not_yet_confirmed"
+}
