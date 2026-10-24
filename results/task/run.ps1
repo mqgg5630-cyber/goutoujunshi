@@ -1,27 +1,43 @@
-# Arena handshake helper (git-sync-hub v4.0) — ASCII only on purpose, to avoid codepage issues.
-# Idempotent. Prints a machine report to stdout so the hub can capture it.
+﻿# Arena handshake verify (git-sync-hub v4.0)
+# NOTE: this file is saved as UTF-8 **with BOM** on purpose.
+# PowerShell 5.1 decodes .ps1 as ANSI/GBK unless a BOM is present, which silently
+# corrupts non-ASCII literals such as 'D:\桌面'. Keep the BOM.
 $ErrorActionPreference = 'Continue'
 
+$targets = @(
+    'C:\0github\arena_hub_probe.txt',
+    'D:\桌面\测试成功.txt',
+    'D:\桌面\arena_hub_probe.txt'
+)
+
 $report = @()
-$report += "=== ARENA HANDSHAKE REPORT ==="
-$report += "time_utc     : " + (Get-Date).ToUniversalTime().ToString('o')
-$report += "host         : $env:COMPUTERNAME"
-$report += "user         : $env:USERNAME"
-$report += "ps_version   : $($PSVersionTable.PSVersion)"
-$report += "pwsh_exe     : " + (Get-Process -Id $PID).Path
-$report += "cwd          : $(Get-Location)"
-$report += "c_root       : $(Test-Path 'C:\')"
-$report += "c_0github    : $(Test-Path 'C:\0github')"
-$report += "d_desktop    : $(Test-Path 'D:\桌面')"
-$report += "e_python     : $(Test-Path 'E:\spider\python.exe')"
+$report += "=== ARENA HANDSHAKE VERIFY ==="
+$report += "time_utc   : " + (Get-Date).ToUniversalTime().ToString('o')
+$report += "host       : $env:COMPUTERNAME"
+$report += "branch     : " + ((git rev-parse --abbrev-ref HEAD) -join ' ')
 
-try   { $report += "git_version  : " + ((git --version) -join ' ') } catch { $report += "git_version  : ERR $_" }
-try   { $report += "git_toplevel : " + ((git rev-parse --show-toplevel) -join ' ') } catch { $report += "git_toplevel : ERR $_" }
-try   { $report += "git_branch   : " + ((git rev-parse --abbrev-ref HEAD) -join ' ') } catch { $report += "git_branch   : ERR $_" }
+foreach ($t in $targets) {
+    if (Test-Path -LiteralPath $t) {
+        $i = Get-Item -LiteralPath $t
+        $len = (Get-Content -LiteralPath $t -Raw -Encoding UTF8).Length
+        $report += ("PRESENT    : {0} | bytes={1} | chars={2} | mtime={3}" -f $t, $i.Length, $len, $i.LastWriteTime.ToString('s'))
+    } else {
+        $report += "MISSING    : $t"
+    }
+}
 
+# Chinese-literal path resolution check (the thing the BOM fixes)
+$report += "d_desktop  : " + (Test-Path -LiteralPath 'D:\桌面')
+$report += "c_0github  : " + (Test-Path -LiteralPath 'C:\0github')
+$report += "e_python   : " + (Test-Path -LiteralPath 'E:\spider\python.exe')
+
+# Persist the report on the real machine (UTF-8, no BOM)
+$out = 'C:\0github\arena_hub_report.txt'
 try {
-    $r = Get-ChildItem -Force 'D:\' -ErrorAction Stop | Select-Object -First 15 -ExpandProperty Name
-    $report += "d_root_items : " + ($r -join ', ')
-} catch { $report += "d_root_items : ERR $_" }
+    ($report -join "`r`n") | Out-File -LiteralPath $out -Encoding UTF8
+    $report += "WROTE      : $out"
+} catch {
+    $report += "WROTE_ERR  : $_"
+}
 
 $report | ForEach-Object { Write-Output $_ }

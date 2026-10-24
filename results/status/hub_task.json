@@ -1,6 +1,6 @@
 {
-  "task_id": "arena-handshake-2026-10-24",
-  "note": "Arena agent <-> git-sync-hub v4.0 handshake / connectivity self-test. Safe to re-run.",
+  "task_id": "arena-handshake-2026-10-24-r2",
+  "note": "Arena <-> git-sync-hub v4.0 handshake, round 2: verify on-disk artifacts + UTF-8 round-trip. Idempotent.",
   "write_files": [
     {
       "path": "C:\\0github\\arena_hub_probe.txt",
@@ -24,6 +24,7 @@
   ],
   "python": [
     "import sys, platform, os; print('PY_EXE=' + sys.executable); print('PY_VER=' + platform.python_version()); print('NODE=' + platform.node()); print('CWD=' + os.getcwd()); print('OS=' + platform.system() + ' ' + platform.release())",
-    "import os; print('DRIVES=' + ','.join(d for d in ['C:','D:','E:','F:'] if os.path.exists(d + '\\\\'))); print('D_DESKTOP=' + str(os.path.isdir('D:\\\\桌面'))); print('C_0github=' + str(os.path.isdir('C:\\\\0github')))"
+    "import os; print('DRIVES=' + ','.join(d for d in ['C:','D:','E:','F:'] if os.path.exists(d + '\\\\'))); print('D_DESKTOP=' + str(os.path.isdir('D:\\\\桌面'))); print('C_0github=' + str(os.path.isdir('C:\\\\0github')))",
+    "import io; p1=r'C:\\0github\\arena_hub_probe.txt'; p2=r'D:\\桌面\\测试成功.txt'; s1=io.open(p1,encoding='utf-8').read(); s2=io.open(p2,encoding='utf-8').read(); print('READBACK_C_LEN=' + str(len(s1))); print('READBACK_D_LEN=' + str(len(s2))); print('READBACK_D_CONTENT=' + s2.strip().replace('\\n',' | '))"
   ]
 }
