@@ -1,0 +1,41 @@
+{
+  "schema": "goutoujunshi.latest-result/v1",
+  "status": "success",
+  "test": "hub-sync-push-test",
+  "timestamp": {
+    "utc": "2026-10-24T06:46:54Z",
+    "local": "2026-10-24 14:46:54",
+    "timezone": "UTC+08:00",
+    "marker": "20261024T064654Z"
+  },
+  "branch": "arena/e1541481-goutoujunshi",
+  "host": "LAPTOP-R77M5D6M",
+  "mode": "results-only",
+  "checks": {
+    "write_results": true,
+    "commit": true,
+    "push_origin_head": true,
+    "fetch_poll_15s_90s_window": true,
+    "merge_ff_only": true,
+    "receipt_readable": true,
+    "timestamp_embedded": true
+  },
+  "checks_passed": 7,
+  "checks_total": 7,
+  "overwrite": {
+    "stable_files": [
+      "results/status/latest_result.md",
+      "results/status/latest_result.json"
+    ],
+    "archived_files": [
+      "results/reports/sync_test_result_20261024T064654Z.md"
+    ]
+  },
+  "previous_receipt": {
+    "synced_at_utc": "2026-10-24T06:36:52Z",
+    "synced_at_local": "2026-10-24 14:36:52",
+    "local_results_dir": "E:\\0github\\results\\goutoujunshi-e1541481-goutoujunshi",
+    "synced_files_count": 4,
+    "hub_commit": "8cc3b0d"
+  }
+}

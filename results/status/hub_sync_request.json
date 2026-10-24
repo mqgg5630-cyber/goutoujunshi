@@ -1,32 +1,51 @@
 {
   "schema": "goutoujunshi.hub-sync-request/v1",
   "mode": "result-only",
-  "requested_at": "2026-10-24T06:37:07Z",
+  "requested_at": "2026-10-24T06:46:54Z",
+  "requested_at_local": "2026-10-24 14:46:54",
+  "timestamp_marker": "20261024T064654Z",
   "requested_by": "arena/e1541481-goutoujunshi",
-  "source_commit": "6db7354",
+  "source_commit": "a57162d",
   "target_host": "LAPTOP-R77M5D6M",
   "remote": "https://github.com/mqgg5630-cyber/goutoujunshi.git",
   "branch": "arena/e1541481-goutoujunshi",
   "push_command": "git add results && git commit -m \"sync: push results to local hub\" && git push origin HEAD",
-  "expected_local_root": "E:\\0github\\results",
+  "expected_local_root": "E:\\0github\\results\\goutoujunshi-e1541481-goutoujunshi",
   "expected_receipt_path": "results/status/hub_sync_receipt.json",
   "poll_interval_seconds": 15,
   "wait_window_seconds": 90,
   "merge_policy": "ff-only",
+  "overwrite_policy": {
+    "stable_targets": [
+      "results/status/latest_result.md",
+      "results/status/latest_result.json"
+    ],
+    "behavior": "每次同步用最新内容整份覆盖同名文件，不追加、不合并",
+    "timestamped_archive": "results/reports/sync_test_result_20261024T064654Z.md"
+  },
+  "timestamp_policy": {
+    "require": true,
+    "fields": ["synced_at_utc", "synced_at_local"],
+    "filename_format": "YYYYMMDDTHHMMSSZ",
+    "local_timezone": "UTC+08:00"
+  },
   "files": [
     "results/README.md",
     "results/reports/validate_skill_report.txt",
+    "results/reports/sync_test_result_20261024T064654Z.md",
     "results/status/hub_sync_request.json",
+    "results/status/latest_result.json",
+    "results/status/latest_result.md",
     "results/status/session_report.md"
   ],
-  "file_count": 4,
+  "file_count": 7,
   "branch_scope": {
     "active": ["arena/e1541481-goutoujunshi"],
     "suspended": ["main", "*"]
   },
   "notes": [
-    "基座只需拉取当前分支的 results/ 增量并落盘，不需要运行任何弹窗或交互脚本。",
-    "回执请回推到同一 arena/* 分支，且只做快进推送，不改写历史。",
-    "除静默基座通道外，main 及其它分支本轮暂停打通。"
+    "本轮为推送链路覆盖测试：固定文件名承担覆盖，时间戳文件名承担归档。",
+    "回执请回推到同一 arena/* 分支，仅快进推送，不改写历史。",
+    "除静默基座通道外，main 及其它分支本轮仍暂停打通。"
   ]
 }
