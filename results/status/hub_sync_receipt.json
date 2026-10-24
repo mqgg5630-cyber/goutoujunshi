@@ -3,10 +3,25 @@
     "host":  "LAPTOP-R77M5D6M",
     "repo":  "goutoujunshi",
     "branch":  "arena/e1541481-goutoujunshi",
-    "source_commit":  "0cc511ccc4cd9df9b7c3b4165ee396f7a0f8008f",
-    "synced_at_utc":  "2026-10-24T07:03:19Z",
-    "synced_at_local":  "2026-10-24 15:03:19",
+    "source_commit":  "4ad9c834bd8cbb2b98dc422945026537485b33a9",
+    "synced_at_utc":  "2026-10-24T07:27:46Z",
+    "synced_at_local":  "2026-10-24 15:27:46",
+    "poll_interval_sec":  15,
     "local_results_dir":  "E:\\0github\\results\\goutoujunshi-e1541481-goutoujunshi",
-    "synced_files_count":  11,
-    "mode":  "results-only-zero-window"
+    "synced_files_count":  12,
+    "tasks_executed_count":  1,
+    "tasks_executed":  [
+                           {
+                               "step":  "desktop_target.json",
+                               "exit_code":  0,
+                               "written_to":  [
+                                                  "D:\\桌面\\测试成功.txt"
+                                              ],
+                               "bytes":  504
+                           }
+                       ],
+    "copied_targets":  [
+                           "D:\\桌面\\测试成功.txt"
+                       ],
+    "mode":  "auto-poll-exec-and-sync-zero-window-v4.0"
 }
