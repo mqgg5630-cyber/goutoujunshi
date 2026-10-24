@@ -1,0 +1,32 @@
+{
+  "schema": "goutoujunshi.hub-sync-request/v1",
+  "mode": "result-only",
+  "requested_at": "2026-10-24T06:37:07Z",
+  "requested_by": "arena/e1541481-goutoujunshi",
+  "source_commit": "6db7354",
+  "target_host": "LAPTOP-R77M5D6M",
+  "remote": "https://github.com/mqgg5630-cyber/goutoujunshi.git",
+  "branch": "arena/e1541481-goutoujunshi",
+  "push_command": "git add results && git commit -m \"sync: push results to local hub\" && git push origin HEAD",
+  "expected_local_root": "E:\\0github\\results",
+  "expected_receipt_path": "results/status/hub_sync_receipt.json",
+  "poll_interval_seconds": 15,
+  "wait_window_seconds": 90,
+  "merge_policy": "ff-only",
+  "files": [
+    "results/README.md",
+    "results/reports/validate_skill_report.txt",
+    "results/status/hub_sync_request.json",
+    "results/status/session_report.md"
+  ],
+  "file_count": 4,
+  "branch_scope": {
+    "active": ["arena/e1541481-goutoujunshi"],
+    "suspended": ["main", "*"]
+  },
+  "notes": [
+    "基座只需拉取当前分支的 results/ 增量并落盘，不需要运行任何弹窗或交互脚本。",
+    "回执请回推到同一 arena/* 分支，且只做快进推送，不改写历史。",
+    "除静默基座通道外，main 及其它分支本轮暂停打通。"
+  ]
+}
