@@ -1,30 +1,9 @@
 {
-  "task_id": "arena-handshake-2026-10-24-r3",
-  "note": "Round 3: byte-exact (sha256) verification + UTF-8 console output probe. Idempotent.",
-  "write_files": [
-    {
-      "path": "C:\\0github\\arena_hub_probe.txt",
-      "content": "Arena <-> git-sync-hub v4.0 handshake\nUTC: 2026-10-24\nFrom: arena/d766ed90-goutoujunshi\nStatus: C drive write OK\n"
-    },
-    {
-      "path": "D:\\桌面\\测试成功.txt",
-      "content": "Arena 与本地静默基座握手成功\n时间(UTC): 2026-10-24\n来源分支: arena/d766ed90-goutoujunshi\n"
-    }
-  ],
-  "copy_files": [
-    {
-      "source": "results/status/hub_probe.txt",
-      "target": "D:\\桌面\\arena_hub_probe.txt"
-    }
-  ],
-  "powershell": [
-    "\"HOST=$env:COMPUTERNAME\"; \"USER=$env:USERNAME\"; \"PS=$($PSVersionTable.PSVersion)\"; \"CWD=$(Get-Location)\"; \"TIME=$(Get-Date -Format o)\"",
-    "\"EXISTS_C_ROOT=$(Test-Path 'C:\\')\"; \"EXISTS_C_0github=$(Test-Path 'C:\\0github')\"; \"EXISTS_D_DESKTOP=$(Test-Path 'D:\\桌面')\"; \"EXISTS_E_SPIDER=$(Test-Path 'E:\\spider\\python.exe')\"",
-    "\"GIT=$(git --version)\"; \"GIT_ROOT=$(git rev-parse --show-toplevel)\"; \"GIT_BRANCH=$(git rev-parse --abbrev-ref HEAD)\""
-  ],
-  "python": [
-    "import sys; sys.stdout.reconfigure(encoding='utf-8'); print('UTF8_PROBE=中文测试 OK'); print('NODE=' + __import__('platform').node())",
-    "import hashlib; p1=r'C:\\0github\\arena_hub_probe.txt'; p2=r'D:\\桌面\\测试成功.txt'; print('SHA256_C=' + hashlib.sha256(open(p1,'rb').read()).hexdigest()); print('SHA256_D=' + hashlib.sha256(open(p2,'rb').read()).hexdigest()); print('SIZE_D=' + str(len(open(p2,'rb').read())))",
-    "import os; print('REPORT_FILE=' + str(os.path.isfile(r'C:\\0github\\arena_hub_report.txt')))"
-  ]
+  "task_id": "idle",
+  "status": "idle",
+  "note": "Handshake finished. No pending tasks. Arena will fill write_files/copy_files/powershell/python when a real task is ready.",
+  "write_files": [],
+  "copy_files": [],
+  "powershell": [],
+  "python": []
 }
