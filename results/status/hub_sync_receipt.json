@@ -1,0 +1,12 @@
+﻿{
+    "status":  "synced",
+    "host":  "LAPTOP-R77M5D6M",
+    "repo":  "goutoujunshi",
+    "branch":  "arena/daf1bc30-goutoujunshi",
+    "source_commit":  "7c82df8db1f92a45ab398f5bfed5ec02f6aea24b",
+    "synced_at_utc":  "2026-10-24T06:33:58Z",
+    "synced_at_local":  "2026-10-24 14:33:58",
+    "local_results_dir":  "E:\\0github\\results\\goutoujunshi-daf1bc30-goutoujunshi",
+    "synced_files_count":  3,
+    "mode":  "results-only-zero-window"
+}
