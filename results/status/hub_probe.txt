@@ -1,0 +1,4 @@
+Arena <-> git-sync-hub v4.0  —  copy probe
+UTC time : 2026-10-24
+Branch   : arena/d766ed90-goutoujunshi
+Purpose  : verify that hub can copy a file from repo results/ to a local Windows path.
