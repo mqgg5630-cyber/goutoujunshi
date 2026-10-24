@@ -1,12 +1,12 @@
 {
   "schema": "goutoujunshi.latest-result/v1",
   "status": "success",
-  "test": "hub-sync-push-test",
+  "test": "hub-sync-poll-verification",
   "timestamp": {
-    "utc": "2026-10-24T06:46:54Z",
-    "local": "2026-10-24 14:46:54",
+    "utc": "2026-10-24T06:56:24Z",
+    "local": "2026-10-24 14:57:40",
     "timezone": "UTC+08:00",
-    "marker": "20261024T064654Z"
+    "marker": "20261024T065624Z"
   },
   "branch": "arena/e1541481-goutoujunshi",
   "host": "LAPTOP-R77M5D6M",
@@ -15,13 +15,16 @@
     "write_results": true,
     "commit": true,
     "push_origin_head": true,
-    "fetch_poll_15s_90s_window": true,
+    "fetch_poll_15s_90s_window": false,
     "merge_ff_only": true,
     "receipt_readable": true,
-    "timestamp_embedded": true
+    "timestamp_embedded": true,
+    "hub_poll_cycle_measured": true,
+    "file_count_matches_receipt": true,
+    "desktop_target_confirmed": false
   },
-  "checks_passed": 7,
-  "checks_total": 7,
+  "checks_passed": 8,
+  "checks_total": 10,
   "overwrite": {
     "stable_files": [
       "results/status/latest_result.md",
@@ -37,5 +40,16 @@
     "local_results_dir": "E:\\0github\\results\\goutoujunshi-e1541481-goutoujunshi",
     "synced_files_count": 4,
     "hub_commit": "8cc3b0d"
+  },
+  "observation": {
+    "hub_poll_interval_seconds": 1081,
+    "hub_poll_interval_human": "18m01s (14:36:52 -> 14:54:53)",
+    "receipt_source_commit": "964b5eb",
+    "receipt_synced_files_count": 11,
+    "results_tree_files_at_source_commit": 11,
+    "counts_match": true,
+    "mirror_root": "E:\\0github\\results\\goutoujunshi-e1541481-goutoujunshi",
+    "desktop_path_supported": false,
+    "clock_skew_seconds": -36
   }
 }
