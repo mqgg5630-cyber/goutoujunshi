@@ -41,7 +41,22 @@
 
 结论：任务已正确落库并推送到远端分支，但 `LAPTOP-R77M5D6M` 上的常驻计划任务 `git-sync-hub` 在本轮（08:19Z 之后）**没有任何轮询/执行动作**，因此没有回执可展示。云端侧无需重试，任务仍是 `pending`，主机恢复后会按原样拾取并执行。
 
-## 主机侧排查建议（Windows）
+## 主机侧诊断结论（2026-10-24 16:45 用户回传 schtasks 输出后更新）
+
+关键证据：
+
+| 观察 | 含义 |
+| --- | --- |
+| `模式: 正在运行` + `上次运行时间 16:45:26`（每 2 分钟刷新） | 计划任务本身是启用的，触发器每 2 分钟正常触发 |
+| `上次结果: -2147020576` = `0x800710E0`（The operator or administrator has refused the request） | 每次触发都被**拒绝**——因为上一个实例「仍在运行」，Task Scheduler 的 MultipleInstances=IgnoreNew 直接忽略新实例 |
+| `git ls-remote` 正常返回全部 `arena/*`（含 `393d993`） | 网络与 GitHub 凭据**没有问题** |
+| 所有分支的主机侧最后提交都停在 16:01:58 | 卡死实例的最后一次成功工作就在那一刻 |
+
+→ 结论：`hub-watch.ps1 -Loop` 的**那个 PowerShell 进程在 16:01 左右卡死在一次 cycle 内部**（未退出、未再写日志），此后每 2 分钟的触发都被 `0x800710E0` 拒绝，所以整台机器的 hub 停摆 45 分钟。属于进程挂起，不是配置/凭据/分支问题，云端侧无需改动。
+
+修复动作（主机侧）：结束卡死实例 → 清理 pid 文件 → 重启计划任务。重启后会在 15 秒内拾取本分支 `393d993` 上 `status=pending` 的 `hub_task.json` 并回推回执。
+
+## 主机侧进一步排查建议（Windows）
 
 1. `schtasks /query /tn git-sync-hub /v /fo LIST` — 确认任务存在且 `Status: Ready/Running`、上次运行结果 `0x0`。
 2. `Get-ScheduledTaskInfo git-sync-hub` — 看 `LastRunTime` 是否停在北京时间 16:01 左右。
