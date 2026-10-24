@@ -3,10 +3,10 @@
     "host":  "LAPTOP-R77M5D6M",
     "repo":  "goutoujunshi",
     "branch":  "arena/e1541481-goutoujunshi",
-    "source_commit":  "a57162da36774757747207299a575697bb26bcd3",
-    "synced_at_utc":  "2026-10-24T06:36:52Z",
-    "synced_at_local":  "2026-10-24 14:36:52",
+    "source_commit":  "964b5ebc600970bab93253822288b2c7816312c8",
+    "synced_at_utc":  "2026-10-24T06:54:53Z",
+    "synced_at_local":  "2026-10-24 14:54:53",
     "local_results_dir":  "E:\\0github\\results\\goutoujunshi-e1541481-goutoujunshi",
-    "synced_files_count":  4,
+    "synced_files_count":  11,
     "mode":  "results-only-zero-window"
 }
