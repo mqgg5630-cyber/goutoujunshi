@@ -1,0 +1,13 @@
+{
+  "repo": "goutoujunshi",
+  "branch": "arena/daf1bc30-goutoujunshi",
+  "mode": "results-only-zero-window",
+  "expected_host": "LAPTOP-R77M5D6M",
+  "expected_local_results_dir": "E:\\0github\\results\\goutoujunshi-daf1bc30-goutoujunshi",
+  "pushed_at_utc": "2026-10-24T06:33:58Z",
+  "files": [
+    "results/session/SYNC_PAYLOAD.md",
+    "results/session/sync_payload.json",
+    "deliverable/session-note.md"
+  ]
+}
