@@ -1,14 +1,21 @@
-{
-  "enabled": true,
-  "status": "pending",
-  "request_id": "20261024T081914Z",
-  "write_files": [
-    {
-      "path": "D:\\桌面\\测试成功.txt",
-      "content": "桌面写入成功！"
-    }
-  ],
-  "powershell": [
-    "Get-Item D:\\桌面\\测试成功.txt | Select-Object FullName,Length"
-  ]
+﻿{
+    "enabled":  true,
+    "request_id":  "20261024T081914Z",
+    "write_files":  [
+                        {
+                            "path":  "D:\\桌面\\测试成功.txt",
+                            "content":  "桌面写入成功！"
+                        }
+                    ],
+    "powershell":  [
+                       "Get-Item D:\\桌面\\测试成功.txt | Select-Object FullName,Length"
+                   ],
+    "status":  "completed_on_host",
+    "executed_on_host":  "LAPTOP-R77M5D6M",
+    "executed_at_utc":  "2026-10-26T00:37:03Z",
+    "executed_at_local":  "2026-10-26 08:37:03",
+    "source_commit":  "26528716188b0f96e689ac0f58e639c375bbe4cd",
+    "written_paths":  [
+                          "D:\\桌面\\测试成功.txt"
+                      ]
 }
