@@ -3,9 +3,9 @@
     "host":  "LAPTOP-R77M5D6M",
     "repo":  "goutoujunshi",
     "branch":  "arena/d766ed90-goutoujunshi",
-    "source_commit":  "fcaa5903441fbcb2cd5c8a5d9368717335271af5",
-    "synced_at_utc":  "2026-10-30T06:46:10Z",
-    "synced_at_local":  "2026-10-30 14:46:10",
+    "source_commit":  "c732c380d661de26fc93884a0ebad71c36e2c55c",
+    "synced_at_utc":  "2026-10-30T07:57:56Z",
+    "synced_at_local":  "2026-10-30 15:57:56",
     "poll_interval_sec":  15,
     "local_results_dir":  "E:\\0github\\results\\goutoujunshi-d766ed90-goutoujunshi",
     "synced_files_count":  7,
@@ -15,8 +15,8 @@
                            {
                                "step":  "results\\task\\run.ps1",
                                "exit_code":  0,
-                               "elapsed_ms":  1579,
-                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-30T06:46:10.3677562Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nMISSING    : D:\\桌面\\测试成功.txt\r\nMISSING    : D:\\桌面\\arena_hub_probe.txt\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
+                               "elapsed_ms":  2291,
+                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-30T07:57:55.9046790Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nMISSING    : D:\\桌面\\测试成功.txt\r\nMISSING    : D:\\桌面\\arena_hub_probe.txt\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
                                "stderr":  ""
                            }
                        ],
