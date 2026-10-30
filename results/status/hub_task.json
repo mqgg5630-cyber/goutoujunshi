@@ -1,9 +1,21 @@
-{
-  "task_id": "idle",
-  "status": "idle",
-  "note": "Handshake finished. No pending tasks. Arena will fill write_files/copy_files/powershell/python when a real task is ready.",
-  "write_files": [],
-  "copy_files": [],
-  "powershell": [],
-  "python": []
+﻿{
+    "task_id":  "idle",
+    "note":  "Handshake finished. No pending tasks. Arena will fill write_files/copy_files/powershell/python when a real task is ready.",
+    "write_files":  [
+
+                    ],
+    "copy_files":  [
+
+                   ],
+    "powershell":  [
+
+                   ],
+    "python":  [
+
+               ],
+    "status":  "completed_on_host",
+    "executed_on_host":  "LAPTOP-R77M5D6M",
+    "executed_at_utc":  "2026-10-30T03:10:36Z",
+    "executed_at_local":  "2026-10-30 11:10:36",
+    "source_commit":  "778b455708d888325232ad3e8ef0923e651b635c"
 }

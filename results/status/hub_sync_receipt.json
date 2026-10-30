@@ -3,19 +3,20 @@
     "host":  "LAPTOP-R77M5D6M",
     "repo":  "goutoujunshi",
     "branch":  "arena/d766ed90-goutoujunshi",
-    "source_commit":  "6c101ff64e9a7342e3a3bdce6c6cb25b557f142a",
-    "synced_at_utc":  "2026-10-24T07:37:58Z",
-    "synced_at_local":  "2026-10-24 15:37:58",
-    "poll_interval_sec":  15,
+    "source_commit":  "778b455708d888325232ad3e8ef0923e651b635c",
+    "synced_at_utc":  "2026-10-30T03:10:38Z",
+    "synced_at_local":  "2026-10-30 11:10:38",
+    "poll_interval_sec":  2,
     "local_results_dir":  "E:\\0github\\results\\goutoujunshi-d766ed90-goutoujunshi",
     "synced_files_count":  7,
     "tasks_executed_count":  1,
+    "tasks_all_ok":  true,
     "tasks_executed":  [
                            {
                                "step":  "results\\task\\run.ps1",
                                "exit_code":  0,
-                               "elapsed_ms":  2031,
-                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-24T07:37:57.9026474Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nPRESENT    : D:\\桌面\\测试成功.txt | bytes=106 | sha256=75e09b63af289fa92f4923370e685cd76464a4508539b9a4fd81d99b6b10b7af\r\nPRESENT    : D:\\桌面\\arena_hub_probe.txt | bytes=197 | sha256=b92d7b0680270b6ca6ba92e6e6906cd52b6f55e4ac27422c1206bb92f9224552\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
+                               "elapsed_ms":  1873,
+                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-30T03:10:37.5086780Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nPRESENT    : D:\\桌面\\测试成功.txt | bytes=21 | sha256=84551a2b9151214b2a8a57d4c20ebeae8d671bc7163494cbc2a78b3a72bade59\r\nMISSING    : D:\\桌面\\arena_hub_probe.txt\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
                                "stderr":  ""
                            }
                        ],
