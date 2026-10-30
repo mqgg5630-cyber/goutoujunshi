@@ -3,32 +3,19 @@
     "host":  "LAPTOP-R77M5D6M",
     "repo":  "goutoujunshi",
     "branch":  "arena/bb21e632-goutoujunshi",
-    "source_commit":  "26528716188b0f96e689ac0f58e639c375bbe4cd",
-    "synced_at_utc":  "2026-10-26T00:37:03Z",
-    "synced_at_local":  "2026-10-26 08:37:03",
-    "poll_interval_sec":  null,
+    "source_commit":  "62750750f841385b551c08a348db7c4bf7d09b14",
+    "synced_at_utc":  "2026-10-30T02:57:16Z",
+    "synced_at_local":  "2026-10-30 10:57:16",
+    "poll_interval_sec":  2,
     "local_results_dir":  "E:\\0github\\results\\goutoujunshi-bb21e632-goutoujunshi",
     "synced_files_count":  8,
-    "tasks_executed_count":  2,
+    "tasks_executed_count":  0,
     "tasks_all_ok":  true,
     "tasks_executed":  [
-                           {
-                               "step":  "write_file: D:\\桌面\\测试成功.txt",
-                               "exit_code":  0,
-                               "written_to":  [
-                                                  "D:\\桌面\\测试成功.txt"
-                                              ]
-                           },
-                           {
-                               "step":  "hub_task.powershell",
-                               "exit_code":  0,
-                               "elapsed_ms":  3638,
-                               "stdout":  "FullName             Length\r\n--------             ------\r\nD:\\����\\���Գɹ�.txt     21",
-                               "stderr":  ""
-                           }
+
                        ],
     "copied_targets":  [
-                           "D:\\桌面\\测试成功.txt"
+
                        ],
     "mode":  "auto-poll-exec-and-sync-zero-window-v4.0"
 }
