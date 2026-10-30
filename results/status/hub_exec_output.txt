@@ -1,14 +1,14 @@
 ﻿== git-sync-hub v4.0 execution log on LAPTOP-R77M5D6M ==
 repo: goutoujunshi
 branch: arena/d766ed90-goutoujunshi
-source_commit: c2eae4a57f16a547ecc7257ad5f3a6655a63aacc
-executed_at_utc: 2026-10-30T06:25:37Z
-executed_at_local: 2026-10-30 14:25:37
+source_commit: 729e8b4e00a5288827a4bd21a5adc9ab6aafce27
+executed_at_utc: 2026-10-30T06:44:59Z
+executed_at_local: 2026-10-30 14:44:59
 tasks_all_ok: True
 
 --- step: results\task\run.ps1 (exit=0) ---
 === ARENA HANDSHAKE VERIFY (r3) ===
-time_utc   : 2026-10-30T06:25:37.2417597Z
+time_utc   : 2026-10-30T06:44:58.6440138Z
 host       : LAPTOP-R77M5D6M
 cp_out     : utf-8
 utf8_probe : 中文输出测试 OK
@@ -16,7 +16,7 @@ d_desktop  : True
 c_0github  : True
 e_python   : True
 PRESENT    : C:\0github\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e
-PRESENT    : D:\桌面\测试成功.txt | bytes=21 | sha256=84551a2b9151214b2a8a57d4c20ebeae8d671bc7163494cbc2a78b3a72bade59
+MISSING    : D:\桌面\测试成功.txt
 MISSING    : D:\桌面\arena_hub_probe.txt
 WROTE      : C:\0github\arena_hub_report.txt
 
