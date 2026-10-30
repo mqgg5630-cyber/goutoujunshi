@@ -3,9 +3,9 @@
     "host":  "LAPTOP-R77M5D6M",
     "repo":  "goutoujunshi",
     "branch":  "arena/d766ed90-goutoujunshi",
-    "source_commit":  "bde8bce4dc29faadd0da8dcf12057159b700e193",
-    "synced_at_utc":  "2026-10-30T04:52:24Z",
-    "synced_at_local":  "2026-10-30 12:52:24",
+    "source_commit":  "9ea1cdee733a263041f28d8e6915959e57f438c6",
+    "synced_at_utc":  "2026-10-30T05:05:44Z",
+    "synced_at_local":  "2026-10-30 13:05:44",
     "poll_interval_sec":  2,
     "local_results_dir":  "E:\\0github\\results\\goutoujunshi-d766ed90-goutoujunshi",
     "synced_files_count":  7,
@@ -15,8 +15,8 @@
                            {
                                "step":  "results\\task\\run.ps1",
                                "exit_code":  0,
-                               "elapsed_ms":  1582,
-                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-30T04:52:23.9682665Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nPRESENT    : D:\\桌面\\测试成功.txt | bytes=21 | sha256=84551a2b9151214b2a8a57d4c20ebeae8d671bc7163494cbc2a78b3a72bade59\r\nMISSING    : D:\\桌面\\arena_hub_probe.txt\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
+                               "elapsed_ms":  1595,
+                               "stdout":  "=== ARENA HANDSHAKE VERIFY (r3) ===\r\ntime_utc   : 2026-10-30T05:05:43.8495623Z\r\nhost       : LAPTOP-R77M5D6M\r\ncp_out     : utf-8\r\nutf8_probe : 中文输出测试 OK\r\nd_desktop  : True\r\nc_0github  : True\r\ne_python   : True\r\nPRESENT    : C:\\0github\\arena_hub_probe.txt | bytes=113 | sha256=23383a4f226d946ab4e92bc3ae72e6f01c7dda885fdf1dc4c9f917c791ddef6e\r\nPRESENT    : D:\\桌面\\测试成功.txt | bytes=21 | sha256=84551a2b9151214b2a8a57d4c20ebeae8d671bc7163494cbc2a78b3a72bade59\r\nMISSING    : D:\\桌面\\arena_hub_probe.txt\r\nWROTE      : C:\\0github\\arena_hub_report.txt",
                                "stderr":  ""
                            }
                        ],
